@@ -29,7 +29,7 @@ test("click on  alert and capture text", async ({ page }) => {
 
   expect(page.locator("#result")).toHaveText("You clicked: Cancel");
 });
-test.only("click on  alert1 and capture text1", async ({ page }) => {
+test("click on  alert1 and capture text1", async ({ page }) => {
   await page.goto("https://the-internet.herokuapp.com/javascript_alerts");
 
 
